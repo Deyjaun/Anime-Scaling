@@ -4,7 +4,14 @@ import {ref, watch} from 'vue'
 
 <template>
   <h1>Welcome To Anime Scaling</h1>
-
+<nav>
+  <router-link to="/">Home</router-link>
+  &nbsp;
+  <router-link to="/about">About</router-link>
+  &nbsp;
+  <router-link to="/sign-up">sign-up</router-link>
+</nav>
+<router-view />
 
 
 <v-chip
